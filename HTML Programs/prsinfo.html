@@ -1,0 +1,85 @@
+<html>
+	<head>
+		<title>Registrtion form</title>
+	</head>
+<body>
+	<form style="background-color:pink;width:600;">
+		<fieldset>
+			<legend>Personal Information</legend>
+			<label for="fname">First Name :</label>
+			<input type="text"id="fname"name="fname"value="First Name"><br>
+			<label for="lname">Last Name :</label>
+			<input type="text"id="lname"name="lname"value="Last Name"><br>
+			
+			<label for="sex">Sex</label>
+			<select name="sex">
+	                	<option id="male"name="sex">Male</option>
+	                	<option id="female"name="sex">Female</option>
+	                	<option id="others"name="sex">Others</option>
+                	</select>
+                	<br><br>
+                	
+                	<label for="sex1">Sex :</label>
+                	<label for="male">Male</label>
+                	<input type="radio"id="male"name="sex1"vale="male">
+                	<label for="female">Female</label>
+                	<input type="radio"id="female"name="sex1"vale="female">
+                	<label for="others">others</label>
+                	<input type="radio"id="others"name="sex1"vale="others"><br><br>
+                	
+                	
+                	<label for="hobbies">Hobbies :</label>
+                	<label for="reading">Reading</label>
+                	<input type="checkbox"id="reading"name="hobbies"vale="reading">
+                	<label for="sleeping">sleeping</label>
+                	<input type="checkbox"id="sleeping"name="hobbies"vale="sleeping">
+                	<label for="gaming">gaming</label>
+                	<input type="checkbox"id="gaming"name="hobbies"vale="gaming"><br><br>
+                	
+                	<label for="quali">Qualification :</label>
+                	<label for="sslc">SSLC</label>
+                	<input type="checkbox"id="sslc"name="quali"vale="sslc">
+                	<label for="+2">+2</label>
+                	<input type="radio"id="+2"name="quali"vale="+2">
+                	<label for="other">others</label>
+                	<input type="radio"id="others"name="quali"vale="others"><br><br>
+                	
+                	<label for="books">Books Readed :</label>
+                	<textarea rows="4"cols="50">Books Readed</textarea><br><br>
+                	
+                	<label for="phn">Phone Number :</label>
+                	<input type="tel" placeholder="0123456789"patern="[0-9]{10}"><br><br>
+                	
+                	<label for="mail">E-Mail Id :</label>
+                	<input type="mail"id="mail"name="mail"><br><br>
+                	
+                	<label for="reg">Registration Number :</label>
+                	<input type="tel" placeholder="4564564575"><br><br>
+                	
+                	<label for="">Register id :</label>
+                	<input type="text" placeholder="no."readonly><br><br>
+                	
+                	<label for="dept">Department :</label>
+                	<select multiple>
+                		<option id="cs"name="dept">CS</option>
+                		<option id="ee"name="dept">EE</option>
+                		<option id="ec"name="dept">EC</option>
+                		<option id="eee"name="dept">EEE</option>
+        		</select>
+        		<br><br>
+        		
+        		<label for="dob">DoB :</label>
+        		<input type="date"id="dob"mame="dob"><br><br>
+        		
+        		<label for="aboutyou">About You</label>
+        		<textarea rows="4"cols="50">About you</textarea><br><br>
+        		
+        		<center>
+        		<button type="button"onClick="alert('Make sure the data is valid')">
+        		Click me !
+        		</button>
+        		</center>
+		</fieldset>
+	</form>
+</body>
+</html>
